@@ -1,0 +1,37 @@
+# Игнорировать файлы виртуального окружения
+venv/
+.venv/
+.env
+
+# Кэш и временные файлы
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# Игнорировать IDE/редакторы
+.idea/
+.vscode/
+
+# Игнорировать файлы базы данных
+*.sqlite3
+
+# Игнорировать конфигурационные файлы
+config.yaml
+settings.json
+
+# Игнорировать выходные файлы (например, скомпилированные)
+build/
+dist/
+*.egg-info/
+
+downloads/
+html_pages/
+logs/
+users/
+
+*~
+
+description.md
+films_list.txt
+users.txt
